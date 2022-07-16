@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>The Acme Movie Generator</title>
+    <script src='/dist/main.js' defer></script>
+<style>
+main > button {
+  height: 3rem;
+  width: 100%;
+  font-weight: bold;
+}
+body {
+  font-family: verdana;
+}
+button {
+  height: 2rem;
+}
+
+li button:first-child {
+  background-color: tomato;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 0.5rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px gray;
+  margin: 1rem;
+}
+li > div {
+  display: flex;
+  justify-content: space-around;
+}
+li > div > * {
+}
+</style>
+  </head>
+  <body>
+    <div id='root'></div>
+  </body>
+</html>
